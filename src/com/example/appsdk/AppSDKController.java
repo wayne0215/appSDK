@@ -25,8 +25,8 @@ public class AppSDKController {
 			// TODO Auto-generated method stub
 			if(!isAppOnForeground()){
 				//切到后台
-				bActive = false;
 				Log.i("appSdk", "切到后台");
+				bActive = false;
 			}
 		}
 		
